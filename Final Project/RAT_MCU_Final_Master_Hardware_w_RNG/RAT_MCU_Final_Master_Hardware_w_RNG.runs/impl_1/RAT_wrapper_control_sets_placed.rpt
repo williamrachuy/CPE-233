@@ -1,0 +1,99 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Mar 17 21:12:43 2017
+| Host         : DESKTOP-20RMD2G running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file RAT_wrapper_control_sets_placed.rpt
+| Design       : RAT_wrapper
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    46 |
+| Unused register locations in slices containing registers |    99 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              54 |           23 |
+| No           | No                    | Yes                    |               2 |            2 |
+| No           | Yes                   | No                     |             127 |           44 |
+| Yes          | No                    | No                     |              60 |           24 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              26 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+-----------------------------------------------+---------------------------------------+------------------+----------------+
+|         Clock Signal         |                 Enable Signal                 |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++------------------------------+-----------------------------------------------+---------------------------------------+------------------+----------------+
+|  s_clk_sig_BUFG              | KEYBOARD/kclkdb/clear                         |                                       |                1 |              1 |
+|  CLK_IBUF_BUFG               |                                               |                                       |                1 |              1 |
+|  tmp_clkf_BUFG               |                                               | VGA/vga_out/V0                        |                1 |              1 |
+|  tmp_clkf_BUFG               |                                               | VGA/vga_out/H0                        |                1 |              1 |
+|  s_clk_sig_BUFG              | KEYBOARD/kclkdb/output_i_1_n_0                |                                       |                1 |              1 |
+|  s_clk_sig_BUFG              | KEYBOARD/kdatadb/output_i_1__0_n_0            |                                       |                1 |              1 |
+|  s_clk_sig_BUFG              | KEYBOARD/kdatadb/r_in_prev_i_1__0_n_0         |                                       |                1 |              1 |
+|  SG/my_clk/CLK               |                                               |                                       |                1 |              2 |
+|  s_clk_sig_BUFG              |                                               | RST_IBUF                              |                2 |              2 |
+|  s_clk_sig_BUFG              | KEYBOARD/r_state__0[1]                        |                                       |                2 |              2 |
+| ~KEYBOARD/kclkdb/s_keyclk_db |                                               | KEYBOARD/r_keyclk_count[3]_i_1_n_0    |                1 |              4 |
+|  s_clk_sig_BUFG              |                                               | KEYBOARD/kclkdb/clear                 |                2 |              8 |
+|  tmp_clkf_BUFG               |                                               | VGA/vga_out/Bout[1]_i_1_n_0           |                8 |              8 |
+|  s_clk_sig_BUFG              | KEYBOARD/kdatadb/r_counter[7]_i_1_n_0         | KEYBOARD/kdatadb/r_in_prev_i_1__0_n_0 |                3 |              8 |
+|  s_clk_sig_BUFG              | KEYBOARD/keycode[7]_i_1_n_0                   |                                       |                2 |              8 |
+|  s_clk_sig_BUFG              | CPU/TheProg_ROM/r_SSEG_reg[0][0]              |                                       |                1 |              8 |
+|  s_clk_sig_BUFG              | CPU/TheProg_ROM/r_vga_wd_reg[0][0]            |                                       |                6 |              8 |
+|  s_clk_sig_BUFG              | CPU/TheProg_ROM/E[0]                          | CPU/TheControlUnit/SR[0]              |                2 |              8 |
+|  s_clk_sig_BUFG              | CPU/TheProg_ROM/r_LEDS_reg[0][0]              |                                       |                5 |              8 |
+| ~KEYBOARD/kclkdb/s_keyclk_db |                                               |                                       |                3 |              9 |
+|  s_clk_sig_BUFG              | CPU/TheControlUnit/E[0]                       | CPU/TheControlUnit/SR[0]              |                6 |             10 |
+|  tmp_clkf_BUFG               |                                               | VGA/vga_out/horizontal[3]_i_1_n_0     |                5 |             10 |
+|  tmp_clkf_BUFG               |                                               |                                       |                4 |             12 |
+|  s_clk_sig_BUFG              | CPU/TheProg_ROM/RF_WR                         |                                       |                2 |             16 |
+|  s_clk_sig_BUFG              | CPU/TheProg_ROM/r_vga_wa_reg[0]_rep__0        |                                       |                4 |             22 |
+|  s_clk_sig_BUFG              |                                               |                                       |               14 |             30 |
+|  s_clk_sig_BUFG              |                                               | SG/my_clk/tmp_clk                     |                8 |             31 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_0_127_0_0_i_1_n_0     |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1024_1151_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1152_1279_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1280_1407_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_128_255_0_0_i_1_n_0   |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1408_1535_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1536_1663_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1664_1791_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1792_1919_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_1920_2047_0_0_i_1_n_0 |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_384_511_0_0_i_1_n_0   |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_512_639_0_0_i_1_n_0   |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_640_767_0_0_i_1_n_0   |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_768_895_0_0_i_1_n_0   |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_256_383_0_0_i_1_n_0   |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              |                                               | VGA/vga_clk/tmp_clkf_0                |                9 |             32 |
+|  CLK_IBUF_BUFG               |                                               | DIV/tmp_clk                           |                9 |             32 |
+|  s_clk_sig_BUFG              | VGA/frameBuffer/mem_reg_896_1023_0_0_i_1_n_0  |                                       |                8 |             32 |
+|  s_clk_sig_BUFG              | CPU/TheProg_ROM/SCR_WE                        |                                       |               10 |             40 |
++------------------------------+-----------------------------------------------+---------------------------------------+------------------+----------------+
+
+

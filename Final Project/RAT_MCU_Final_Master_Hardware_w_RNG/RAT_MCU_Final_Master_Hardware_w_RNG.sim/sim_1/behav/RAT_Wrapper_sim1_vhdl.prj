@@ -1,0 +1,26 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/new/SCR_DATA_IN_MUX.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/new/SCR_ADDR_MUX.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/SCR.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/new/REG_FILE_MUX.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/REG_FILE.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/PC_MUX.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/PC.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/FLAGS.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/new/ControlUnit.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/new/ALU_MUX.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/Michael/experiment6platinum/experiment6platinum.srcs/sources_1/new/ALU.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/new/RAT_MCU.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/Downloads/RAT_Wrapper_W2017.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/Desktop/SP.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/sources_1/new/ClkDiv.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/sources_1/imports/sources_1/new/Four_Digit_Display.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/Downloads/INTERRUPT.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sources_1/imports/Exp9ProgAssign/prog_rom.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sim_1/new/MCU_sim1.vhd"
+vhdl xil_defaultlib  "../../../RAT_MCU_working_int.srcs/sim_1/new/WRAPPER_SIMULATION.vhd"
+
+# Do not sort compile order
+nosort

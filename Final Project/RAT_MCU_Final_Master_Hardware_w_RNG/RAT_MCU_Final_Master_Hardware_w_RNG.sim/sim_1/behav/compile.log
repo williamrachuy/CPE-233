@@ -1,0 +1,44 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/new/SCR_DATA_IN_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SCR_DATA_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/new/SCR_ADDR_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SCR_ADDR_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/SCR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SCR
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/new/REG_FILE_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity REG_FILE_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/REG_FILE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity REG_FILE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/PC_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/RAT MCU Submodules [WORKING]/FLAGS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FLAGS
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/new/ALU_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/Michael/experiment6platinum/experiment6platinum.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/new/RAT_MCU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAT_MCU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/Downloads/RAT_Wrapper_W2017.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAT_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/Desktop/SP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SP
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/sources_1/new/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ClkDiv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/sources_1/imports/sources_1/new/Four_Digit_Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Four_Digit_Display
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/Downloads/INTERRUPT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity INTERRUPT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity db_1shot_FSM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity counter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sources_1/imports/Exp9ProgAssign/prog_rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prog_rom
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sim_1/new/MCU_sim1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MCU_sim1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Michael/Desktop/RAT_MCU_working_int/RAT_MCU_working_int.srcs/sim_1/new/WRAPPER_SIMULATION.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAT_Wrapper_sim1
